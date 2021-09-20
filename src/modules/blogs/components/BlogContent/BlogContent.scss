@@ -1,0 +1,57 @@
+.blog-content {
+	&__title {
+		font-size: 52px;
+		line-height: 68px;
+		color: black;
+		font-weight: 600;
+	}
+
+	&__description {
+		margin-top: 15px;
+		font-size: 24px;
+		line-height: 32px;
+		color: #707070;
+	}
+
+	&__author {
+		margin-top: 15px;
+		display: flex;
+		align-items: center;
+
+		&-name {
+			font-weight: 500;
+			color: black;
+		}
+
+		&-blog-info {
+			margin-left: 8px;
+		}
+	}
+
+	&__thumbnail {
+		margin-top: 50px;
+		img {
+			width: 100%;
+		}
+	}
+
+	&__content {
+		font-size: 21px;
+
+		.medium {
+			font-size: 26px;
+		}
+
+		.large {
+			font-size: 42px;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+
+		.italic {
+			font-style: italic;
+		}
+	}
+}

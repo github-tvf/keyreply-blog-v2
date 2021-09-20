@@ -1,0 +1,13 @@
+.editor-toolbar--hidden {
+	z-index: -100;
+	opacity: 0;
+	transition: opacity 0.5s;
+	position: absolute;
+	z-index: 1;
+	top: -10000px;
+	left: -10000px;
+
+	background-color: #323232;
+	border-radius: 5px;
+	padding: 0 10px;
+}

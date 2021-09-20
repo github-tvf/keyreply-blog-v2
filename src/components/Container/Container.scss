@@ -1,0 +1,15 @@
+.container {
+	width: 100%;
+
+	&-small {
+		padding: 0 150px;
+	}
+
+	&-medium {
+		padding: 0 120px;
+	}
+
+	&-large {
+		padding: 0 100px;
+	}
+}

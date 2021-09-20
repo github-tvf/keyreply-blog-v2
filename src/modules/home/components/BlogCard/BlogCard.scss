@@ -1,0 +1,39 @@
+.blog-card {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 45px;
+	&__right-side {
+		img {
+			width: 200px;
+			height: 134px;
+			cursor: pointer;
+			object-fit: contain;
+		}
+	}
+
+	&__title {
+		margin: 0;
+		font-size: 26px;
+		font-weight: bold;
+		color: black;
+		padding: 8px 0 0;
+		cursor: pointer;
+	}
+
+	&__description {
+		margin: 0;
+		font-size: 15px;
+		font-weight: 500;
+		color: #797979;
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+	}
+
+	&__author-name {
+		margin-left: 8px;
+		font-weight: 500;
+	}
+}

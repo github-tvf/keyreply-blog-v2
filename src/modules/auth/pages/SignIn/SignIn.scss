@@ -1,0 +1,24 @@
+.signin-page {
+	background-image: url('../../../../assets/images/background.jpg');
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+
+	&__logo-wrapper {
+		h1,
+		h4 {
+			color: white;
+		}
+
+		h1 {
+			font-size: 35px;
+			margin: 0;
+		}
+
+		h4 {
+			margin: 0;
+			font-weight: 400;
+			letter-spacing: 0.5px;
+		}
+	}
+}
